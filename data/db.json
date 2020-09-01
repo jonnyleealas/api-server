@@ -1,0 +1,40 @@
+{
+  "categories": [
+    {
+      "name": "ron",
+      "display_name": "2ndTestDisplayName",
+      "description": "2ndTestDescription",
+      "id": 4
+    },
+    {
+      "name": "Test3",
+      "display_name": "2ndTestDisplayName",
+      "description": "2ndTestDescription",
+      "id": 7
+    },
+    {
+      "name": "john",
+      "display_name": "2ndTestDisplayName",
+      "description": "2ndTestDescription",
+      "id": 8
+    }
+  ],
+  "products": [
+    {
+      "inStock": "2",
+      "id": 3
+    },
+    {
+      "name": "Test1",
+      "display_name": "2ndTestDisplayName",
+      "description": "2ndTestDescription",
+      "id": 4
+    },
+    {
+      "name": "john",
+      "display_name": "2ndTestDisplayName",
+      "description": "2ndTestDescription",
+      "id": 7
+    }
+  ]
+}
