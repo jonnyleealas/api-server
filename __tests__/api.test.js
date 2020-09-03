@@ -40,3 +40,55 @@ describe('Testing get methods', () => {
       })
   })
 })
+
+
+describe('Testing error', ()=>{
+
+  it('It should respond with 404 on bad route', () => {
+    return mockRequest
+      .get('/badroute')
+      .then(results => {
+        expect(results.status).toBe(404);
+      })
+  })
+})
+
+describe('Testing Post', () => {
+
+  it('It should respond with status 200', () => {
+    return mockRequest
+      .post('/products')
+      .then(results => {
+        expect(results.status).toBe(200);
+      })
+  })
+
+  it('It should respond with status 200', () => {
+    return mockRequest
+      .post('/categories')
+      .then(results => {
+        expect(results.status).toBe(200);
+      })
+  })
+})
+
+describe('Testing Delete', () => {
+
+  it('It should respond with status 200', () => {
+    return mockRequest
+      .delete('/products/:id')
+      .then(results => {
+        expect(results.status).toBe(200)
+      })
+  })
+
+  it('It should respond with status 200', () => {
+    return mockRequest
+      .delete('/categories/:id')
+      .then(results => {
+        expect(results.status).toBe(200)
+      })
+  })
+})
+
+
