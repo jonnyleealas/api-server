@@ -8,7 +8,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "jest --verbose --coverage"
   },
   "repository": {
     "type": "git",
@@ -22,7 +23,12 @@
   },
   "homepage": "https://github.com/jonnyleealas/api-server#readme",
   "dependencies": {
+    "@code-fellows/supergoose": "^1.0.11",
     "dotenv": "^8.2.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "supertest": "^4.0.2"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2"
   }
 }
