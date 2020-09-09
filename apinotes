@@ -1,0 +1,27 @@
+//first we received a request from the front end. this goes to our "server.js" file._id
+  // our server.js file reads the address, and tries to find a handler for it
+  // then it goes to categories.js, this handles our actual request. if its post, put, delete etc.
+  // then it decides which function to call.
+  // then it goes to categories-collections (or this file), and interacts with the DB.
+  // then this file returns whatever needs to be returned.
+
+  // step one is Server.js
+  // step two is categories.js (in routes)
+  // step three is categores-collections.js (in models)
+  // step four is from categories-collections to categoires.js (routes)
+  // step five is categoires.js (routes) to server js
+  // step six is from server js to frontend.
+  
+  // this file is your middleware; this file goes between your category routes and the actual mongoDB
+
+
+  ## collections
+    read(id){
+    return schema.findById({"_id": id});
+    // mangoose ahs a few find functions:
+    // fineOne() <-- here you have to pass a query to search by a field on the schema. IE "name"
+    //
+    // schema.findOne({"name": req.body.name})
+    // findbyId <-- here all we need is the id of the record we are looking for.
+    // scheum.findbyId({"_id": req.body.id OR just the id we are passing in})
+  }
