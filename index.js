@@ -1,5 +1,7 @@
 'use strict';
 
+const core = require('@actions/core');
+const github = require('@actions/github');
 const server = require('./lib/server');
 require('dotenv').config()
 const mongoose = require('mongoose');
