@@ -28,10 +28,18 @@ DELETE
 The following dependencies will install following step 1.
 ```
 @code-fellows/supergoose": "^1.0.11",
-dotenv": "^8.2.0",
-express": "^4.17.1",
-mongoose": "^5.10.3",
-supertest": "^4.0.2"
+dotenv: "^8.2.0",
+express: "^4.17.1",
+mongoose: "^5.10.3",
+supertest: "^4.0.2"
+jest": "^26.4.2"
+
+```
+
+# Testing
+Run the following in your terminal for method testing.
+```
+Npm Test
 
 ```
 
