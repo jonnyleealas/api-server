@@ -1,7 +1,7 @@
 # API with Mongodb
 
 # Pull Requests
-- [Lab 9 PR](https://github.com/jonnyleealas/api-server/pull/8)
+- [Lab 9 PR](https://github.com/jonnyleealas/api-server/pull/10)
 
 
 # Step 1:
